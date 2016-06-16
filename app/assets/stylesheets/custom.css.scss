@@ -1,2 +1,65 @@
+$navbar-default-bg: black;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo { 
+    float: left;
+    font-size: 1.7em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    
+}
+
+#logo:hover {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.center {
+    text-align: center;
+}
+.jumbotron {
+    background-image: asset-url('1_writing-in-the-first-person.jpg');
+    background-size: cover;
+    height: 500px;
+}
+.jumbotron h1 {
+    color: #fff;
+    text-align:left;
+    font-weight: bold;
+}
+
+.btn-primary{
+    border-color: black;
+}
+.btn-primary:hover{
+    background-color: grey;
+    border-color: grey;
+}
+.btn-xlarge {
+    font-size: 1.7em;
+    background-color: black;
+    float: left;
+   
+}
+footer {
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid black;
+   
+}
+footer small {
+    float: left;
+}
+footer ul {
+    float: right;
+    list-style: none;
+}
+footer ul li {
+    float: left;
+    margin-left: 15px;
+}
